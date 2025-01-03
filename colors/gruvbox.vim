@@ -14,7 +14,7 @@ if version > 580
   if exists("syntax_on")
     syntax reset
   endif
-  colorscheme vim
+  source colors/vim.vim
 endif
 
 let g:colors_name='gruvbox'

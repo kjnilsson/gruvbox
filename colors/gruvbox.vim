@@ -11,6 +11,7 @@
 
 if version > 580
   hi clear
+  colorscheme vim
   if exists("syntax_on")
     syntax reset
   endif
